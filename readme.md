@@ -92,17 +92,7 @@ In order to reduce APK size, the Turbo and Extreme Turbo variants do not bundle 
  * For Vuforia
  */
 // Find a line similar to this in the program
-vuforia.loadTrackablesFromAsset("DatasetName");
-// And replace it with this (obviously adjusting the DatasetName)
-vuforia.loadTrackablesFromFile("/sdcard/FIRST/DatasetName");
 
-/*
- * For TensorFlow
- */
-// Find a line similar to this in the program
-tfod.loadModelFromAsset("DatasetName.tflite");
-// And replace it with this (obviously adjusting the DatasetName)
-tfod.loadModelFromFile("/sdcard/FIRST/DatasetName.tflite");
 
 ```
 
